@@ -1,0 +1,97 @@
+
+body{  background: linear-gradient(180deg,rgb(155, 192, 204) ,white )  ;
+margin:0px; 
+padding:3px; }
+h1
+ {
+     text-shadow:9px 9px 3px plum;
+     
+     padding-left:10em;
+     
+    font-size: 35px;
+    font-family: 'Meddon', cursive,serif; 
+}
+main,p,label,span ,tr { 
+    color: rgb(65, 14, 49);
+    font-family: 'Mr Dafoe', cursive,serif;
+}
+.chan{border-radius:30px;
+    box-shadow: 10px 10px 2px rgb(156, 154, 154);
+     margin-top: -60px;
+margin-right:30em;}
+h2,h3,h4 ,ol {
+    padding-left: 30px;
+    color:rgb(131, 128, 131);
+    font-family: 'Norican', cursive,serif;
+}
+ul { 
+    
+    color: rgb(65, 14, 49);
+
+    font-family: 'Miniver', cursive,serif;
+}
+#pos{ 
+    position: relative;
+    top: 200px;
+}
+
+
+.liab li{
+    font-variant:small-caps;
+    font-weight:bold;
+    margin-right: 20px;
+    position: relative;
+    left:1100px;
+
+ }
+
+header#title-mid {
+   
+
+    background-color: #8bd9ec;
+background-image: linear-gradient(135deg, #8bd9ec 0%, #9599E2 24%, #aba8a8 49%, #ffffff 75%, #7af0f7 100%);
+    padding:0px ;
+    margin: 0;
+    
+   
+  
+}
+.box1 { background-color: #8eeefc;
+    background-image: linear-gradient(62deg, #8eeefc 16%, #d5c3fc 64%, #ffffff 100%);
+    order: 2;
+    flex-basis: 200px;
+    border-radius: 10px;
+    
+  
+
+   
+}
+.box2 {background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 14%, #80D0C7 45%, #ffffff 100%);
+     order:1; 
+     flex-basis: 200px;  
+     border-radius: 10px;
+     
+     
+
+}
+
+.boxcont{ display:flex;
+    flex-flow:row wrap-reverse;
+    justify-content: space-evenly;
+align-items: baseline;
+
+    
+ } 
+section.boxcont {   
+   border-radius: 8px;
+
+    background-color: #58a2a2;
+    padding-top:60px;
+    
+    padding-bottom:60px;
+background-image: linear-gradient(90deg, #58a2a2 10%, #bfa7bd 59%, #ffffff 99%);
+
+
+
+}
